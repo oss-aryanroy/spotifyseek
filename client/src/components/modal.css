@@ -1,0 +1,19 @@
+.block-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+  z-index: 10000;
+}
+
+.block-modal-card {
+  background: #1f1f29;
+  padding: 18px 24px;
+  border-radius: 14px;
+  width: 340px;
+  text-align: center;
+  color: #fff;
+}

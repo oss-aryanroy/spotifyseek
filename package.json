@@ -1,0 +1,32 @@
+{
+  "name": "spotifyseek",
+  "version": "1.0.0",
+  "description": "Spotifyseek will allow you to download the entire contents of a Spotify playlist through Soulseek. A simple search combining the artist and title of each song (for example \"Kelly Lee Owens Flow\") is used to get Soulseek results. Only results with open slots (meaning they can be downloaded right away) are considered. Among these candidates, the one with the highest speed will be chosen, unless there is at least one file of the preferred file type. In this case, all non-preferred types are eliminated and top speed among only the preferred types is chosen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdavs3/spotifyseek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdavs3/spotifyseek/issues"
+  },
+  "homepage": "https://github.com/bdavs3/spotifyseek#readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "got": "^14.6.5",
+    "log-symbols": "^7.0.1",
+    "react-dom": "^19.2.0",
+    "react-scripts": "^5.0.1",
+    "slsk-client": "^1.1.0",
+    "spotify-web-api-js": "^1.5.2"
+  }
+}
