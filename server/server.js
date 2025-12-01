@@ -14,12 +14,13 @@ const __dirname = path.dirname(__filename);
 
 // Load environment variables from .env file
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config()
 
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
 const SLSK_USER = process.env.USERNAME;
 const SLSK_PW = process.env.PW;
+
 const REDIRECT_URI = "http://127.0.0.1:8888/callback"; // cannot be localhost due to Spotify restrictions
 const SCOPE =
   "playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private";
